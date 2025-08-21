@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="/register" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="ln">Last Name:</label><br>
+        <input type="text" id="ln" name="ln" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="m" name="gender" value="m" required>
+        <label for="m">Male</label>
+        <input type="radio" id="f" name="gender" value="f">
+        <label for="f">Female</label><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="PN">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course" required>
+            <option value=""> Select Course </option>
+            <option value="BSc">B.Sc</option>
+            <option value="BTech">B.Tech</option>
+            <option value="BA">B.A</option>
+            <option value="BCom">B.Com</option>
+            <option value="MSc">M.Sc</option>
+        </select><br><br>
+
+        <label for="adrs">Address:</label><br>
+        <textarea id="adrs" name="adrs" rows="4" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
+
+</html>
