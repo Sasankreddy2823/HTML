@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Enrollment Form</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: darkcyan;
+            color: white;
+        }
+        label {
+            margin-top: auto;
+            text-align: center;
+            background-color: ivory;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>Course Enrollment Form</b></h1>
+    <form action="">
+        <label for="SName">Student Name:</label>
+        <input type="text" id="SName" name="SName" required><br><br>
+
+        <label for="RollNo">Roll Number:</label>
+        <input type="number" id="RollNo" name="RollNo" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Select Courses:</label>
+        <input type="checkbox" id="BSc" name="courses[]" value="BSc">
+        <label for="BSc">B.Sc</label><br>
+
+        <input type="checkbox" id="BTech" name="courses[]" value="BTech">
+        <label for="BTech">B.Tech</label><br>
+
+        <input type="checkbox" id="BA" name="courses[]" value="BA">
+        <label for="BA">B.A</label><br>
+
+        <input type="checkbox" id="BCom" name="courses[]" value="BCom">
+        <label for="BCom">B.Com</label><br>
+
+        <input type="checkbox" id="MSc" name="courses[]" value="MSc">
+        <label for="MSc">M.Sc</label><br>
+
+        <label for="MOS">Mode of Study:</label>
+        <select id="MOS" name="MOS" required>
+            <option value="" disabled selected>Select Mode</option>
+            <option value="Online">Online</option>
+            <option value="Offline">Offline</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
