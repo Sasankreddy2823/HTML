@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grade Card</title>
+        <style>
+            h1{
+                font-family: 'Segoe UI';
+                font-weight: bolder; 
+                text-align: center;
+                width: 700px;
+                padding-left: 15%;
+                margin-top: -115px;        
+            }
+            h2{
+              font-family: 'Segoe UI';
+              text-align: center;
+              font-weight: bolder;
+              width: 700px;
+              padding-left: 15%;
+              
+            }
+             img
+            {
+                width: 150px;
+                height: 150px;
+                margin-left: 25px;
+                margin-top: -3px;
+            }
+
+            .Main{
+              border: 2px solid black;
+              padding: 30px;
+              width: 1000px;
+              margin: auto;
+              
+            }
+            h4
+            {
+                text-align: center;
+                font-weight: lighter;
+            }
+            h3
+            {
+                text-align: center;
+                font-weight: lighter;
+            }
+            .info
+            {
+                display: flex;         
+                justify-content: center; 
+                gap: 40px;             
+                margin-top: 40px;
+            }
+            .Grades
+            {
+                display: flex;         
+                justify-content: center; 
+                gap: 40px;
+                border-collapse:separate;
+                border-spacing: 30px 10px;
+                
+
+            }
+            .Grades,th{
+                justify-content: center;
+                
+            }
+            .CGPA 
+            {
+                display: flex; 
+                justify-content: space-between; 
+                width: 600px; 
+                margin: 40px auto;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+           }
+          .value
+           {
+               border: 1px solid black;
+               text-align: center;
+               font-weight: bold;
+               width: 100px;
+               height: 20px;;
+           }
+          .label 
+          {
+               font-weight: bold;
+          }
+        </style>
+    </head>
+    <body>
+      <div class="Main">
+        <img src="L.png" style=""float:left;>
+        <h1>MOHAN BABU UNIVERSITY</h1>
+        <h4>Sree Sainath Nagar, Tirupati - 517 102, A.P.</h4>
+        <h2>GRADE CARD</h2>
+        <h3>III-Semester - Batch-I Nov-2024</h3>
+        <div class="info">
+        <table>
+            <tr>
+              <td>Student Name:</td>
+              <td><b>K SRAVANTHI</b></td>
+            </tr>
+            <tr>
+              <td>Roll Number:</td>
+              <td><b>23102A030009</b></td>
+            </tr>
+            <tr>
+              <td>Program:</td>
+              <td><b>B.Tech - Computer Science and Engineering (Data Science)</b></td>
+            </tr>
+        
+        </table>
+        <table>
+            <tr>
+              <td>Father's Name:</td>
+              <td><b>K SURENDRA REDDY</b></td>
+            </tr>
+            <tr>
+              <td>Academic Year:</td>
+              <td><b>2024-2025</b></td>
+            </tr>
+            <tr>
+              <td>Mother's Name:</td>
+              <td><b>K MAHALAKSHMI</b></td>
+            </tr>
+        </table>
+        </div>
+        <hr>
+        <table class="Grades">
+            <tr>
+            <th>Course Code</th>
+            <th>Course Name</th>
+            <th>Credits</th>
+            <th>Grade Point</th>
+            <th>Grade</th>
+        </tr>
+          <tr>
+            <td>22MM101405</td><td>NUMERICAL METHODS, PROBABILITY AND STATISTICS</td>
+            <td>3</td>
+            <td>8</td>
+            <td>A</td>
+        </tr>
+          <tr>
+            <td>22AB107601</td>
+            <td>NSS ACTIVITIES*</td>
+            <td>2</td><td>10</td>
+            <td>O</td>
+        </tr>
+          <tr>
+            <td>22CM101402M</td>
+            <td>PRINCIPLES OF BUSINESS ECONOMICS AND ACCOUNTANCY</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+        </tr>
+          <tr><td>22AI101019M</td>
+            <td>FOUNDATIONS OF OPERATING SYSTEMS</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+        </tr>
+          <tr><td>22LG201701</td>
+            <td>PERSONALITY DEVELOPMENT</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+        </tr>
+          <tr>
+            <td>22DS102001</td>
+            <td>FOUNDATIONS OF DATA SCIENCE</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+          </tr>
+          <tr>
+            <td>22CS102003</td>
+            <td>DATA STRUCTURES</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+        </tr>
+          <tr>
+            <td>22CS102002</td>
+            <td>PYTHON PROGRAMMING</td>
+            <td>4</td>
+            <td>10</td>
+            <td>O</td>
+        </tr>
+        </table>
+        <hr>
+    <div class="CGPA">
+    <table>
+      <tr>
+        <td class="label">Credits Registered / Completed</td>
+        <td class="value">26 / 26</td>
+      </tr>
+      <tr>
+        <td class="label">Credits Registered</td>
+        <td class="value">26</td>
+      </tr>
+      <tr>
+        <td class="label">Credits Completed</td>
+        <td class="value">26</td>
+      </tr>
+      <tr>
+        <td class="label">CGPA</td>
+        <td class="value">9.10</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td class="label">SGPA</td>
+        <td class="value">9.42</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+  </div>
+    </body>
+</html>
